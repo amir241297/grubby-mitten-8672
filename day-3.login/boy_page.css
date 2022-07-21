@@ -1,0 +1,123 @@
+
+        #Top_navbar
+        {
+            height: 90px;
+            width:100%;
+            display: flex;
+            position: fixed;
+            background-color: rgba(100, 100, 100, 0);
+            top: 10px;
+        }
+        #img
+        {
+            margin-left: 50px;
+            background-color: rgba(100, 100, 100, 0);
+            font-size: 100px;
+            position:relative;
+            bottom: 85px;
+        }
+        #opt
+        {
+            height: 50%;
+            width:5%;
+            font-size: 30px;
+            border: 0px;
+            background-color: rgba(100, 100, 100, 0);
+            
+            
+        } 
+        #navbar > img
+        {
+            margin-left: 50px;
+            background-color: rgba(100, 100, 100, 0);
+        }
+        #sear
+        {
+            height: 40%;
+            margin-left: 100px;
+            border: 0px;
+            background-color: rgba(100, 100, 100, 0);
+
+        }
+        #login
+        {
+            height: 30%;
+            margin: 10px 0px 0px 130px;
+            color:grey;
+            border:0px;
+            background-color: rgba(100, 100, 100, 0);
+        }
+        #help
+        {
+            height: 30%;
+            color:grey;
+            border:0px;
+            background-color: rgba(100, 100, 100, 0);
+            margin: 10px;
+            
+        }
+        #cart
+        {
+            height: 40px;
+            width: 50px;
+            border: 0px;
+            background-color: rgba(100, 100, 100, 0);
+            font-size: 25px;
+        }
+        #filter
+        {
+            background-color: rgba(100, 100, 100, 0);
+            height: 25%;
+            margin-top: 60px;
+            color: grey;
+            border: 1px solid black;
+        }
+        .type
+        {
+            height: 20px;
+            font-size: 12px;
+            margin: 70px 0px 0px 0px;
+            background-color: rgba(100, 100, 100, 0);
+            color: grey;
+            border: 0px;
+            margin-right: 20px; 
+        }
+        #girl
+        {
+            margin-left: 180px;
+        }
+        #clothes
+        {
+            
+            width: 82%;
+            height: 200px;
+            margin-top: 120px;
+            display: grid;
+            grid-template-columns: repeat(4,100px);
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .text
+        {
+            display: flex;
+            justify-content: space-between;
+            font-size: 15px;
+            color: grey;
+            width: 300px;
+            padding-bottom: 50px;
+        }
+        .text>div
+        {
+            display: flex;
+        }
+        img
+        {
+            width: 300px;
+            display:flex;
+            margin-left: 30px;
+        }
+        .text
+        {
+            margin-left:30px ;
+
+        }
