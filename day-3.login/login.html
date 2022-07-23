@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOG IN</title>
     <link rel="stylesheet" href="login.css">
-  
+    <script src="login.js" ></script>
 </head>
 <body>
     <div id="Top_navbar">
@@ -33,9 +33,9 @@
                 <div class="text">IF YOU STILL DON'T HAVE A <b id="clr">ZARA.COM</b> ACCOUNT, USE THIS OPTION TO ACCESS THE REGISTRATION FORM.</div>
                 <div class="text">BY GIVING US YOUR DETAILS, PURCHASING IN <b id="clr">ZARA.COM</b> WILL BE FASTER AND AN ENJOYABLE EXPERIENCE.
             <form action="creat_account.html">
-                <button id="create_account"> CREATE ACCOUNT </button>
-            
+                <button id="create_account" formaction=""> CREATE-ACCOUNT </button>
             </form>       
+       
         
 
             </div>
@@ -43,12 +43,4 @@
      </div>
 </body>
 </html>
- 
-<script>
-    let form=document.querySelector("form")
-    let log_in_ls=JSON.parse(localStorage.getItem("create_account"))||[];
-    form.addEventListener("submit",function(e)
-    {
-        e.preventDefault()
-    })
-</script>
+

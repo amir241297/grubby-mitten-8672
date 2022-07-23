@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CREATE ACCOUNT</title>
     <link rel="stylesheet" href="creat_account.css">
-    
+
+    <script src="creat_account.js"></script>
+
 </head>
 <body>
     <div id="Top_navbar">
@@ -20,36 +22,38 @@
         <div id="child_div">
         <h4>PERSONAL DETAILS</h4>
         <form>
-            <input type="email" id="" class="" placeholder="E-MAIL">
-            <input type="password" id="" class="" placeholder="PASSWORD">
-            <input type="text" id="" class="" placeholder="NAME">
-            <input type="email" id="" class="" placeholder="ADDRESS">
-            <input type="email"  id="" class="" placeholder="LOCATION">
-            <select name="state" id="State">
-                <option value="--">State</option>
-                <option value="">ANDAMAN AND NICOBAR ISLAND</option>
-                <option value="">ANDHRA PRADESH</option>
-                <option value="">ASSAM</option>
-                <option value="">BIHAR</option>
-                <option value="">CHANDIGARH</option>
-                <option value="">CHHATSGARH</option>
-                <option value="">DADRA AND NAGAR HAVELI</option>
-                <option value="">DAMAN AND DIU</option>
-                <option value="">DEKHI</option>
-                <option value="">GOA</option>
+
+            <input type="email" id="can_email" class="" placeholder="E-MAIL">
+            <input type="password" id="can_pswd" class="" placeholder="PASSWORD">
+            <input type="text" id="can_name" class="" placeholder="NAME">
+            <input type="address" id="can_address" class="" placeholder="ADDRESS">
+            <input type="address"  id="can_location" class="" placeholder="LOCATION">
+            <select id="State">
+                <option value="State">State</option>
+                <option value="ANDAMAN AND NICOBAR ISLAND">ANDAMAN AND NICOBAR ISLAND</option>
+                <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+                <option value="ASSAM">ASSAM</option>
+                <option value="BIHAR">BIHAR</option>
+                <option value="CHANDIGARH">CHANDIGARH</option>
+                <option value="CHHATSGARH">CHHATSGARH</option>
+                <option value="DADRA AND NAGAR HAVELI">DADRA AND NAGAR HAVELI</option>
+                <option value="DAMAN AND DIU">DAMAN AND DIU</option>
+                <option value="DEKHI">DEKHI</option>
+                <option value="GOA">GOA</option>
             </select>
-            <input type="number" id="" class="" placeholder="+91 TELEPHONE" >
+            <input type="number" id="can_telephone" class="" placeholder="+91 TELEPHONE" >
             <input type="submit" id="submit" class="CREATE" value="CREATE ACCOUNT">
-        
+        </form>
         </div>
         <div id="second_child">
-                <input type="text" id="repeat_pswd" class="HELLO" placeholder="REPEAT PASSWORD">
-                <input type="number" id="" placeholder="PINCODE">
+            <form>
+                <input type="password" id="repeat_pswd" class="HELLO" placeholder="REPEAT PASSWORD">
+                <input type="number" id="pincode" placeholder="PINCODE">
                 <input type="text" name="" id="location" placeholder="CITY">
-            </form>
+            </form>  
         </div>
     </div>
-    
+
 
     
 </body>
